@@ -1,12 +1,18 @@
-p {
+#first-paragraph {
     color: green;
     font-size: 20px;
     text-align: center;
 }
 
-h1 { 
+#grid-paragraph {
+	color: #536482;
+	font-size: 20px;
+	text-align: center;
+}
+
+#header {
 	color: blue;
-	font-size: 30px;
+	font-size: 40px;
 	text-align: center;
 }
 
@@ -14,4 +20,14 @@ li {
 	color: red;
 	font-size: 20px;
 	text-align: center;
+}
+
+img {
+	width:30%;
+	position: absolute;
+	display:block;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
 }
