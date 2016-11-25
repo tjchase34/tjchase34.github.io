@@ -21,6 +21,14 @@
 	font-size: 25px; 
 }
 
+#link {
+	font-size: 25px;
+}
+.img-responsive {
+	display: block;
+	max-width: 100%;
+}
+
 body { 
   background: url("http://cdn.pcwallart.com/images/universe-stars-background-wallpaper-2.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
