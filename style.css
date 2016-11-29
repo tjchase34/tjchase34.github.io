@@ -18,11 +18,15 @@
 
 #name {
 	color: white;
-	font-size: 25px; 
+	font-size: 30px; 
 }
 
 #link {
 	font-size: 25px;
+}
+
+#email {
+	font-size: 27.5px;
 }
 .img-responsive {
 	display: block;
