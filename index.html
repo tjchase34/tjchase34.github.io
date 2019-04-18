@@ -1,115 +1,145 @@
-<!doctype HTML>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-	<title>TJ Chase: A web story.</title>
+  <title>TJ Chase: A Web Story</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel=”stylesheet” media=”screen and (min-width:500px)” href=”style.css”>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 
-<link rel="stylesheet" type="text/css" href="style.css">
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sa384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Patrick+Hand+SC|Playfair+Display+SC|Staatliches" rel="stylesheet">
 
 </head>
-<body>
 
-	<div class="container">
+<body class="bg-light">
+  <main>
 
-	<div class="row">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html" id="navName">Timothy (TJ) Chase</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto" id="navItems">
+          <a class="nav-item nav-link" href="#abtMe">About</a>
+          <a class="nav-item nav-link" href="#Prj">Portfolio</a>
+          <a class="nav-item nav-link" href="chase_resume.pdf">Resume</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
 
-			<div class="col-lg-4 col-md-pull-0">
-			<div class="fixed">
-				<div class="text-center">
+    <a name="abtMe">
+        <div class="container-fluid">
+          <div class="row">
+            <img src="assets/img/tj.jpg" class="rounded mx-auto w-25 h-25" id="pflPic">
+          </div>
+          <div class="row d-flex justify-content-center" id="abtme">
+            <h1>About <span class="me">Me</span></h1>
+          </div>
+  
+          <div class="row">
+            <div class="container-fluid" style="background-color:rgb(212, 219, 226)">
+              <p class="text-justify py-5" id="abt">
+                As long as I can remember, technology has peaked my interest. I began tinkering with computers at a young age, 
+                including building my own when I was 14. I have always been interested in technology and its development 
+                throughout history, and what innovations and crazy things the future brings. It's because of this that
+                I chose to attend the University at Buffalo for Computer Science, starting in the Fall of 2016.
+                I am also extremely passionate about space, and love astronomy and the physics behind it.
+                It is my goal to combine these passions, and enable the next generation of spaceflight and exploration.
+                When I'm not busy building things or doing sciency stuff, you can catch me on the ski slopes or playing
+                some of my favorite sports like lacrosse or basketball.
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+  
+      <a name="Prj">
+        <div class="row d-flex justify-content-center" id="abtme">
+          <h1><span class="proj">Projects</span></h1>
+        </div>
+        <div class="container-fluid" style="background-color:rgb(212, 219, 226)">
+          <!-- <div class="row d-flex justify-content-center" id="prj">
+            <h1 class="my-2">Projects.</h1>
+          </div> -->
 
-					<img class="img-responsive" src="https://i.imgur.com/M3NJjUz.jpg" style="margin: 0 auto; height: 375px; width: 375px; padding-top: 20px;">
-					<h3 id="name">Timothy (TJ) Chase</h3>
+          <div class="card-deck pb-3">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/brad.png">
+              <div class="card-body">
+                <h5 class="card-title">Breast Cancer Risk Analysis & Diagnosis (B.R.A.D)</h5>
+                <p class="card-text">Winner of UB Hackathon 2018. As breast cancer is such a pressing medical issue 
+                  (even effecting one of the lives of the developers), we wanted to play our part in the fight against 
+                  breast cancer. B.R.A.D is an application used by doctors. Doctors can input results from an FNA procedure 
+                  (fine needle aspiration) on a breast mass, and the system will classify the mass as being a benign or 
+                  malignant tumor. We're very proud to have achieved a 96.5% +/-0.5% accuracy rating on classifying breast 
+                  cancer tumors as being benign or malignant.</p>
+              </div>
+              <div class="card-body">
+                <a href="https://devpost.com/software/b-r-a-d-breast-cancer-risk-analysis-diagnostics" class="btn float-right" 
+                   id="cardBtn">
+                   Check It Out!</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/img/centric.png">
+              <div class="card-body">
+                <h5 class="card-title">pharmaTracker</h5>
+                <p class="card-text"> UB Blockchain Buildathon 2019. First place Value Centric use-case. 
+                  Second place overall. pharmaTracker is a completely decentralized application, built on the 
+                  Ethereum blockchain, to track pharmaceutical drugs. With increasing government regulations
+                  with regards to anonymity and patient safety, tracking these drugs in a way that's decentralized and 
+                  anonymous is required. Utilizing the blockchain infrastructure to keep a immutable recorded ledger,
+                  we attempted to solve this problem. pharmaTracker is a full-stack web app, with the back-end server 
+                  leveraging the blockchain for tracking distributions of drugs.</p>
+                <a href="https://github.com/ethansachse/Blockchain-Buildathon" class="align-self-end btn float-right" id="cardBtn">Check
+                  It Out!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
 
-					<h2 id="email">
-					<a href="mailto:tbchase@buffalo.edu">tbchase@buffalo.edu</a>
-					</h2>
+    <a name="contact">
+      <div class="container-fluid bg-light">
+        <div class="row d-flex justify-content-center" id="findme">
+          <h1>Find Me <span class="here">Here</span></h1>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <a href="mailto:tbchase@buffalo.com">
+            <img src="assets/img/mail.png" class="img-fluid" id="mail">
+          </a>
+          <a href="https://www.linkedin.com/in/timothy-chase">
+            <img src="assets/img/linked.png" class="img-fluid" id="link">
+          </a>
+          <a href="chase_resume.pdf">
+            <img src="assets/img/resume.png" class="img-fluid" id="res">
+          </a>
+          <a href="https://github.com/tjchase34?tab=repositories">
+            <img src="assets/img/github.png" class="img-fluid" id="git">
+          </a>
+        </div>
+      </div>
+    </a>
+  </main>
 
-					<h1 id="link">
-					<a href="chase_resume.pdf">Resume</a>
-					</h1>
 
-					<h1 id="link">
-					<a href="https://github.com/tjchase34" target="_blank" clase="external">Github</a>
-					</h1>
-
-				</div>
-				</div>
-			</div>
-
-		<div class="col-lg-8 col-md-push-0">
-
-			<hr>
-
-			<h1 id="head">
-				My name is TJ, and I am currently a Sophomore at the
-				<a href="http://www.buffalo.edu/" target="_blank" clase="external">University at Buffalo</a>
-				pursuing a Bachelor of Science in Computer Science. </h1>
-
-			<hr>
-
-			<h3 id="topic">About Me</h3>
-
-			<hr>
-
-			<p id="paragraph">
-				I began tinkering with computers at a young age, including building my own when I was 14. I have always been interested in technology and its development throughout history. I also share a passion for space, and enjoy astronomy as well as researching the various aspects of space. <!-- I plan to combine these two interests, and bring my knowledge of computers into the aerospace industry. -->Outside of these interests, I also share a great passion for skiing and enjoy other hobbies, such as fishing and athletics.</p>
-
-			<hr>
-
-			<h3 id="topic">Academics</h3>
-
-			<hr>
-
-			<ul id="listhead">Relevant classes I have completed include: </ul>
-			<br>
-			<li id="list">CSE 115: Intro to Computer Science I</li>
-			<li id="list">CSE 116: Intro to Computer Science II</li>
-			<li id="list">CSE 191: Intro to Discrete Structures</li>
-			<li id="list">CSE 199: How the Internet Works</li>
-			<li id="list">ENG 105: Writing and Rhetoric</li>
-			<li id="list">MTH 141: Calculus I</li>
-			<li id="list">MTH 142: Calculus II</li>
-			<br>
-			<p id="paragraph">These classes have taught me many profound techniques in computer science, and other important fundumental skills as well. Classes such as CSE 115/116, CSE 191, CSE 199, and MTH 141/142 have given me great insight into the field of computer science. These are important classes that have taught me various new concepts and have began laying my foundation for future work. ENG 105 is a welcome addition to my coursework teaching valuable life and communication skills to be utilized throughout college and beyond.</p>
-			<br>
-			<ul id="listhead">Relevant classes I am currently taking include: </ul>>
-			<br>
-			<li id="list">CSE 241: Digital Systems</li>
-			<li id="list">CSE 250: Data Structures</li>
-			<li id="list">PHY 121: Descriptive Astronomy I</li>
-			<br>
-			<p id="paragraph">
-
-			<hr>
-
-			<h3 id="topic">Extracurricular Research</h3>
-
-			<hr>
-
-			<p id="paragraph">
-				<!-- With my love for space and a goal of working in the aerospace industry,  -->I joined the
-				<a href="http://www.ubnl.space" target="_blank" clase="external">University at Buffalo Nanosatellite Laboratory's</a>
-				flight software team in the summer of 2016, the summer before starting my college career. The experience I have already gained from this opportunity is unparallel. At the start of summer in 2017, I became the flight software lead for our GLADOS satellite, which will be launching in 2019. Being in a management position on a high level engineering project has already gained me incredible experience in leading a team, managing the timeline and progression of the system, and laying out a roadmap for various tasks. I plan to contribute heavily on this project and future projects for the remaining semesters I have left here at UB, and look forward to gaining even more paramount experience in the world of computer science and software engineering. </p>
-
-		</div>
-
-	</div>
-
-	</div>
-
-    <a href="http://w4.wallls.com/uploads/original/201711/16/wallls.com_141291.jpg" target="_blank" clase="external">Background image source</a>
-
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

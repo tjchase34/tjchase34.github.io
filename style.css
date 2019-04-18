@@ -1,69 +1,172 @@
-#head {
-    color: white;
-    font-size: 20px;
-    text-align: center;
-}
-
-#paragraph {
-    color: white;
-    font-size: 18px;
-    text-align: center;
-}
-
-
-#listhead {
-    color: white;
-    font-size: 19px;
-    text-align: center;
-}
-
-#list {
-    color: white;
-    font-size: 18px;
-    text-align: left;
-}
-
-#topic {
-	color: white;
-	font-size: 40px;
-	text-align: center;
-}
-
-#name {
-	color: white;
-	font-size: 30px;
-}
-
-#link {
-	font-size: 26px;
-}
-
-#email {
-	font-size: 27.5px;
-}
-.img-responsive {
-	display: block;
-	max-width: 100%;
-}
-
-.container {
-	background-color: rgba(0,0,0,.5);
-}
-
-/*.fixed {
-	position: fixed;
-}*/
-
-@media (min-width: 1200px) {
-	.fixed {
-		position: fixed;
-	}
-}
-
 body {
-  background: url("background.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    /* background-color: rgb(228, 234, 255); */
+}
+
+@media screen and (max-width: 500px) {
+    #navName {
+        font-family: 'Staatliches', cursive;
+        font-size: 1.5em;
+    }
+    #navItems {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #jumboTitle {
+        font-family: 'Staatliches', cursive;
+        color: #ff1111;
+        font-size: 4em;
+    }
+    #jumboSub {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5em;
+    }
+    .jumbotron {
+        background-image: url("../img/bg.png");
+        background-size: cover;
+        background-position: center;
+    }
+    #abtme {
+        font-family: 'Staatliches', cursive;
+    }
+    #abt {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #prj {
+        font-family: 'Staatliches', cursive;
+        color: #ff1111;
+    }
+    .card-title {
+        font-family: 'Staatliches', cursive;
+        color: #ff1111;
+        font-size: 1.5em;
+    }
+    .card-body {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .card-deck {
+        display: none;
+    }
+    #cardBtn {
+        background-color: #ff1111;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #findme {
+        font-family: 'Staatliches', cursive;
+    }
+    span.here {
+        color: #ff1111;
+    }
+    span.me {
+        color: #ff1111;
+    }
+    #mail {
+        width: 2em;
+        height: 2em;
+        margin: .5em 2em;
+    }
+    #link {
+        width: 2em;
+        height: 2em;
+        margin: .5em 2em;
+    }
+    #res {
+        width: 2em;
+        height: 2em;
+        margin: .5em 2em;
+    }
+    #git {
+        width: 2em;
+        height: 2em;
+        margin: .5em 2em;
+    }
+    #twit {
+        width: 2em;
+        height: 2em;
+        margin: .5em 2em;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    #navName {
+        font-family: 'Staatliches', cursive;
+        font-size: 2em;
+    }
+    #navItems {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #jumboTitle {
+        font-family: 'Staatliches', cursive;
+        color: #ff1111;
+        font-size: 7em;
+    }
+    #jumboSub {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5em;
+    }
+    .jumbotron {
+        background-image: url("../img/bg.png");
+        background-size: cover;
+        background-position: center;
+    }
+    #abtme {
+        font-family: 'Staatliches', cursive;
+        font-size: 10em;
+    }
+    #abt {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #prj {
+        font-family: 'Staatliches', cursive;
+        color: #ff1111;
+    }
+    .card-body {
+        font-family: 'Josefin Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+    button.btn {
+        margin-top: auto;
+      }
+    #cardBtn {
+        background-color: #ff1111;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #findme {
+        font-family: 'Staatliches', cursive;
+    }
+    span.here {
+        color: #ff1111;
+    }
+    span.me {
+        color: #ff1111;
+    }
+    #smCard {
+        display: none;
+    }
+    #mail {
+        width: 2.5em;
+        height: 2.5em;
+        margin: .5em 5em;
+    }
+    #link {
+        width: 2.5em;
+        height: 2.5em;
+        margin: .5em 5em;
+    }
+    #res {
+        width: 2.5em;
+        height: 2.5em;
+        margin: .5em 5em;
+    }
+    #git {
+        width: 2.5em;
+        height: 2.5em;
+        margin: .5em 5em;
+    }
+    #twit {
+        width: 2.5em;
+        height: 2.5em;
+        margin: .5em 5em;
+    }
 }
