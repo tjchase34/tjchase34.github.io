@@ -57,3 +57,15 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+# Education
+<hr>
+Hello there
+
+# Internships/Employment
+<hr>
+Hello there
+
+# Teaching
+<hr>
+Hello there
