@@ -20,6 +20,9 @@ My research interests include spacecraft perception and autonomy, optical naviga
 # News
 <hr>
 
+<!-- TODO: ADD -->
+<!-- NERC poster presentation -->
+
 - September 2023: I've received the NASA GSFC Smart Award for my nine-month mentorship and technical advisement of a Drexel University Dept. of Computer Science senior project.
 
 <!-- - Smallsat EDP poster -->
