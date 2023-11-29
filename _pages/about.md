@@ -24,11 +24,11 @@ My research interests include spacecraft perception and autonomy, optical naviga
 
 <!-- - Smallsat EDP poster -->
 
-- May 2023: I receive my Master of Science in Computer Science and Engineering from University at Buffalo!
+- May 2023: I've received my M.Sc. in Computer Science and Engineering from University at Buffalo.
 
-- April 2023: My contributions to STP-H9 SCENIC are <a href="https://www.instagram.com/p/CrBefvXJBvy/?img_index=1">featured by UB Engineering's Instagram</a> for National Robotics Week! UB features this as post of the month.
+- April 2023: My contributions to STP-H9 SCENIC are <a href="https://www.instagram.com/p/CrBefvXJBvy/?img_index=1">featured by UB Engineering's Instagram</a> for National Robotics Week. UB features this as post of the month.
 
-- March 2023: My work on NASA mission STP-H9 SCENIC <a href="https://twitter.com/SpaceX/status/1635803956533399553?s=20">launches to the International Space Station!</a>
+- March 2023: My work on NASA mission STP-H9 SCENIC <a href="https://twitter.com/SpaceX/status/1635803956533399553?s=20">launches to the International Space Station.</a>
 
 - February 2023: One co-authored paper accepted to the 2023 Small Satellite Conference (SmallSat): <b><i><a href="https://digitalcommons.usu.edu/smallsat/2023/all2023/147/">NASA SpaceCube Next-Generation Artificial-Intelligence Computing for STP-H9-SCENIC on ISS</a></i></b>.
 
