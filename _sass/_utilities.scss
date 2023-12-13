@@ -468,3 +468,25 @@ a.reversefootnote {
   color: $danger-color;
   font-weight: bold;
 }
+
+.paper-title {
+  font-weight: bold;
+}
+
+.paper-desc {
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.paper-links {
+  margin-top: 5px;
+}
+
+.paper-bib {
+  font-size: 14px;
+}
+
+.paper-authors {
+  font-size: 14px;
+  font-style: italic;
+}
