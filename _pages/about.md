@@ -233,27 +233,140 @@ classes: wide
 
 <!-- INTERNSHIPS ===================================================== -->
 <div class='section-sep section-vspace-top'>
-		<h1>Internships</h1>
+		<h1>Internships and Work Experience</h1>
 </div>
 
-<!-- <div class='row vspace-top'>
+<div class='row vspace-top'>
   <div class="col-sm-4">
-    Apr 2023 - Nov 2023
+    Dec. 2021 - Present
   </div>
   <div class="col">
     <div class='edu-title'>
-      Google Zurich, Switzerland
+      NASA Goddard Space Flight Center
     </div>
     <div class="edu-desc">
-      Student Researcher
+      Pathways Student, Science Data Processing Branch (Code 587)<br>
+      Embedded Autonomy and AI Researcher<br>
+	  R&D-class Flight Software Developer
     </div>
   </div>
-</div> -->
+</div>
+
+<div class='row vspace-top'>
+  <div class="col-sm-4">
+    May 2018 - Dec. 2021
+  </div>
+  <div class="col">
+    <div class='edu-title'>
+      NASA Goddard Space Flight Center - Wallops Flight Facility
+    </div>
+    <div class="edu-desc">
+      Pathways Student, Wallops Systems Software Engineering Branch (Code 589)<br>
+      Cube/Small-satellite Flight Software Developer
+    </div>
+  </div>
+</div>
+
+<div class='row vspace-top'>
+  <div class="col-sm-4">
+    Sep. 2019 - Jan. 2020
+  </div>
+  <div class="col">
+    <div class='edu-title'>
+      NASA Jet Propulsion Laboratory
+    </div>
+    <div class="edu-desc">
+      Intern, Robot Operations Group (347K)<br>
+      Simulation for Mars 2020 Rover Operations
+    </div>
+  </div>
+</div>
+
+<div class='row vspace-top'>
+  <div class="col-sm-4">
+    Jan. 2019 - Jan. 2020
+  </div>
+  <div class="col">
+    <div class='edu-title'>
+      NOVI Aerospace
+    </div>
+    <div class="edu-desc">
+      Machine Learning Consultant<br>
+      Dataset Curator
+    </div>
+  </div>
+</div>
+
+<div class='row vspace-top'>
+  <div class="col-sm-4">
+    Mar. 2016 - May. 2020
+  </div>
+  <div class="col">
+    <div class='edu-title'>
+      UB Nanosatellite Laboratory
+    </div>
+    <div class="edu-desc">
+      Flight Software Lead (~15-45 Students)<br>
+	  Three CubeSat Missions
+    </div>
+  </div>
+</div>
+
 
 <!-- PUBLICATIONS ===================================================== -->
 <div class='section-sep section-vspace-top'>
 		<h1>Select Publications</h1>
 </div>
+
+<!-- PRESLAM ----- -->
+<div class='row vspace-top'>
+		<div class="col-sm-3">
+			<a href="/assets/images/preslam.png"><img src='/assets/images/preslam.png' class='img-fluid'></a>
+		</div>
+		<div class="col">
+			<div class='paper-title'>
+				PRE-SLAM: Persistence Reasoning in Edge-assisted Visual SLAM
+			</div>
+			<div class='paper-authors'>
+				<u>Timothy Chase Jr</u>, Ali J. Ben Ali, Steven Y. Ko, Karthik Dantu
+			</div>
+			<div class='paper-bib'>
+				IEEE International Conference on Mobile Ad Hoc and Smart Systems (MASS), 2022 (Oral Presentation)
+			</div>
+			<div class='paper-desc'>
+				We introduce PRE-SLAM, which builds upon the edge-assisted Visual-SLAM system, Edge-SLAM, to incorporate feature persistence filtering. We revisit the centralized persistence filter architecture and make a series of modifications to allow for dynamic feature filtering in an edge-assisted setting. Using two locally collected datasets, we show how our split persistent filter implementation is comparable with the centralized version in performance, reducing map-point and keyframe retention by 26.6% and 16.6% respectively. By filtering out dynamic map-points from the system, we demonstrate an improvement in average localization accuracy by more than 50%. We also demonstrate how incorporating feature persistence filtering into Edge-SLAM retains the key benefits and performance enhancements of an edge-assisted Visual-SLAM system, with an added communication overhead of only 500 KB while decreasing overall map size by 8.6%.
+			</div>
+			<div class='paper-links'>
+				<a href="https://ieeexplore.ieee.org/abstract/document/9973604" target="_blank">[IEEE Xplore]</a>
+				<a href="https://tjchase34.github.io/preslam_web/" target="_blank">[Project Page]</a>
+			</div>
+		</div>
+	</div>
+
+<!-- YOCO AAS ----- -->
+<div class='row vspace-top'>
+		<div class="col-sm-3">
+			<a href="/assets/images/yoco.png"><img src='/assets/images/yoco.png' class='img-fluid'></a>
+		</div>
+		<div class="col">
+			<div class='paper-title'>
+				You Only Crash Once: Improved Object Detection for Real-Time, Sim-to-Real Hazardous Terrain Detection and Classification for Autonomous Planetary Landings
+			</div>
+			<div class='paper-authors'>
+				<u>Timothy Chase Jr</u>, Chris Gnam, John Crassidis, Karthik Dantu
+			</div>
+			<div class='paper-bib'>
+				AAS/AIAA Astrodynamics Specialist Conference, 2022 (Oral Presentation)
+			</div>
+			<div class='paper-desc'>
+				In this work, we introduce You Only Crash Once (YOCO), a deep learning-based visual hazardous terrain detection and classification technique for autonomous spacecraft planetary landings. Through the use of unsupervised domain adaptation we tailor YOCO for training by simulation, removing the need for real-world annotated data and expensive mission surveying phases. We further improve the transfer of representative terrain knowledge between simulation and the real world through visual similarity clustering. We demonstrate the utility of YOCO through a series of terrestrial and extraterrestrial simulation-to-real experiments and show substantial improvements toward the ability to both detect and accurately classify instances of planetary terrain.
+			</div>
+			<div class='paper-links'>
+				<a href="https://arxiv.org/abs/2303.04891" target="_blank">[Arxiv]</a>
+				<a href="https://tjchase34.github.io/yoco_web/" target="_blank">[Project Page]</a>
+			</div>
+		</div>
+	</div>
 
 <!-- MHT ----- -->
 <div class='row vspace-top'>
@@ -265,17 +378,19 @@ classes: wide
 				Efficient Feature Matching and Mapping for Terrain Relative Navigation Using Hypothesis Gating
 			</div>
 			<div class='paper-authors'>
-				Chris Gnam*, <u>Timothy Chase Jr*</u>, Karthik Dantu, John Crassidis
+				Chris Gnam*, <u>Timothy Chase Jr*</u>, Karthik Dantu, John Crassidis<br>
+				*Equal Contribution
 			</div>
 			<div class='paper-bib'>
-				AIAA SciTech Forum, 2022
+				AIAA SciTech Forum, 2022 (Oral Presentation)
 			</div>
 			<div class='paper-desc'>
 				This paper tackles the inaccuracies and inefficiencies of standard image feature matching processes on spaceflight processors, by leveraging traditional onboard navigation filter information to drastically reduce the number of matching candidates. Estimated feature location is used to form statistical prediction gates around a given feature, for which all points lying inside are treated as inliers and fed to the matching process. Using a simulated trajectory around a high-fidelity 3D asteroid model and a single monocular camera, we demonstrate an overall reduction of around 87% in average matching time for three popular feature description techniques. A substantial increase in the quality of matches obtained is also shown, giving utility towards purely monocular terrain relative navigation.
 			</div>
 			<div class='paper-links'>
-				<a href="https://arc.aiaa.org/doi/10.2514/6.2022-2513" target="_blank">[Paper]</a>
-				<a href="https://tjchase34.github.io/mht/" target="_blank">[Project Page]</a>
+				<a href="https://arc.aiaa.org/doi/10.2514/6.2022-2513" target="_blank">[AIAA Paper]</a>
+				<a href="https://video.aiaa.org/title/2934eaa3-91fb-4897-ba28-9eb774074875" target="_blank">[Video]</a>
+				<a href="https://tjchase34.github.io/mht_web/" target="_blank">[Project Page]</a>
 			</div>
 		</div>
 	</div>
@@ -286,23 +401,23 @@ classes: wide
 </div>
 
 <!-- TODO: ADD -->
-<!-- Aero papers -->
-<!-- NERC poster presentation -->
-<!-- EDP poster presentation -->
 
-- **September 2023**: I've received the NASA GSFC Smart Award for my nine-month mentorship and technical advisement of a Drexel University Dept. of Computer Science senior project.
+- **Nov. 2023**: One poster presented at the 2023 Northeast Robotics Colloquium (NERC): <b><i><a href="assets/pdfs/nerc23.pdf">Enhanced Visual Perception for Autonomous Spacecraft Navigation</a></i></b>.
+- **Nov. 2023**: Two papers accepted to the 2024 IEEE Aerospace Conference: <b><i>Profiling Vision-based Deep Learning Architectures on NASA SpaceCube Platforms</i></b> and <b><i>Unsupervised Surface-to-Orbit View Generation of Planetary Terrain</i></b>.
+- **Sep. 2023**: I've received the NASA GSFC Smart Award for my nine-month mentorship and technical advisement of a Drexel University Dept. of Computer Science senior project.
+- **Aug. 2023**: One co-authored poster presented at the 2023 Small Satellite Conference (SmallSat): <b><i><a href="assets/pdfs/smallsat23.pdf">An Autonomous Agent Framework for Constellation Missions: A Use Case for Predicting Atmospheric CO2</a></i></b>.
 - **May 2023**: I've received my M.Sc. in Computer Science and Engineering from University at Buffalo.
-- **April 2023**: My contributions to STP-H9 SCENIC are <a href="https://www.instagram.com/p/CrBefvXJBvy/?img_index=1">featured by UB Engineering's Instagram</a> for National Robotics Week. UB features this as post of the month.
-- **March 2023**: My work on NASA mission STP-H9 SCENIC <a href="https://twitter.com/SpaceX/status/1635803956533399553?s=20">launches to the International Space Station.</a>
-- **February 2023**: One co-authored paper accepted to the 2023 Small Satellite Conference (SmallSat): <b><i><a href="https://digitalcommons.usu.edu/smallsat/2023/all2023/147/">NASA SpaceCube Next-Generation Artificial-Intelligence Computing for STP-H9-SCENIC on ISS</a></i></b>.
+- **Apr. 2023**: My contributions to STP-H9 SCENIC are <a href="https://www.instagram.com/p/CrBefvXJBvy/?img_index=1">featured by UB Engineering's Instagram</a> for National Robotics Week. UB features this as post of the month.
+- **Mar. 2023**: My work on NASA mission STP-H9 SCENIC <a href="https://twitter.com/SpaceX/status/1635803956533399553?s=20">launches to the International Space Station.</a>
+- **Feb. 2023**: One co-authored paper accepted to the 2023 Small Satellite Conference (SmallSat): <b><i><a href="https://digitalcommons.usu.edu/smallsat/2023/all2023/147/">NASA SpaceCube Next-Generation Artificial-Intelligence Computing for STP-H9-SCENIC on ISS</a></i></b>.
 
 **Older Updates**
 
-- **August 2022**: I start a NASA-led mentorship/technical advisement role to a six-student senior project group from Drexel University.
-- **June 2022**: One paper accepted to the 2022 IEEE International Conference on Mobile Ad Hoc and Smart Systems (MASS): <b><i><a href="https://ieeexplore.ieee.org/abstract/document/9973604">PRE-SLAM: Persistence Reasoning in Edge-assisted Visual SLAM</a></i></b>.
+- **Aug. 2022**: I start a NASA-led mentorship/technical advisement role to a six-student senior project group from Drexel University.
+- **Jun. 2022**: One paper accepted to the 2022 IEEE International Conference on Mobile Ad Hoc and Smart Systems (MASS): <b><i><a href="https://ieeexplore.ieee.org/abstract/document/9973604">PRE-SLAM: Persistence Reasoning in Edge-assisted Visual SLAM</a></i></b>.
 - **May 2022**: One paper accepted to the 2022 AAS/AIAA Astrodynamics Specialist Conference: <b><i><a href="https://arxiv.org/abs/2303.04891">You Only Crash Once: Improved Object Detection for Real-Time, Sim-to-Real Hazardous Terrain Detection and Classification for Autonomous Planetary Landings</a></i></b>.
 - **May 2022**: One co-authored poster presented at the 20th ACM International Conference on Mobile Systems, Applications, and Services (MobiSys): <b><i>A Modular, Extensible Framework for Modern Visual SLAM Systems</i></b>.
-- **February 2022**: One co-authored paper accepted to the 2022 AAS Guidance, Navigation and Control Conference: <b><i>Attitude Determination via Earth Surface Feature Tracking Given Precise Orbit Knowledge</i></b>.
-- **September 2021**: One paper accepted to the 2022 AIAA SciTech Forum: <b><i><a href="https://arc.aiaa.org/doi/abs/10.2514/6.2022-2513">Efficient Feature Matching and Mapping for Terrain Relative Navigation Using Hypothesis Gating</a></i></b>.
+- **Feb. 2022**: One co-authored paper accepted to the 2022 AAS Guidance, Navigation and Control Conference: <b><i>Attitude Determination via Earth Surface Feature Tracking Given Precise Orbit Knowledge</i></b>.
+- **Sep. 2021**: One paper accepted to the 2022 AIAA SciTech Forum: <b><i><a href="https://arc.aiaa.org/doi/abs/10.2514/6.2022-2513">Efficient Feature Matching and Mapping for Terrain Relative Navigation Using Hypothesis Gating</a></i></b>.
 
 <!-- - August 2020: I start an undergraduate teaching assistantship for CSE 421/521: Introduction to Operating Systems. -->
