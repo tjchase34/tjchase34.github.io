@@ -198,7 +198,7 @@ classes: wide
       University at Buffalo
     </div>
 			<div class="edu-desc">
-				M.Sc. in Computer Science and Engineering
+				M.S. in Computer Science and Engineering
 			</div>
 		</div>
 </div>
@@ -212,7 +212,7 @@ classes: wide
       University at Buffalo
     </div>
 			<div class="edu-desc">
-				B.Sc. in Computer Science
+				B.S. in Computer Science
 			</div>
 		</div>
 </div>
