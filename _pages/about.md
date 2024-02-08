@@ -233,7 +233,7 @@ classes: wide
 
 <!-- INTERNSHIPS ===================================================== -->
 <div class='section-sep section-vspace-top'>
-		<h1>Internships and Work Experience</h1>
+		<h1>Selected Internships and Work Experience</h1>
 </div>
 
 <div class='row vspace-top'>
@@ -246,8 +246,8 @@ classes: wide
     </div>
     <div class="edu-desc">
       Pathways Student, Science Data Processing Branch (Code 587)<br>
-      Embedded Autonomy and AI Researcher<br>
-	  R&D-class Flight Software Developer
+      Embedded Autonomy and AI<br>
+	  R&D Flight Software
     </div>
   </div>
 </div>
@@ -262,7 +262,7 @@ classes: wide
     </div>
     <div class="edu-desc">
       Pathways Student, Wallops Systems Software Engineering Branch (Code 589)<br>
-      Cube/Small-satellite Flight Software Developer
+      Cube/Small-satellite Flight Software
     </div>
   </div>
 </div>
@@ -277,7 +277,7 @@ classes: wide
     </div>
     <div class="edu-desc">
       Intern, Robot Operations Group (347K)<br>
-      Simulation for Mars 2020 Rover Operations
+      Simulation, Mars 2020 Rover Operations
     </div>
   </div>
 </div>
@@ -318,31 +318,6 @@ classes: wide
 		<h1>Select Publications</h1>
 </div>
 
-<!-- PRESLAM ----- -->
-<div class='row vspace-top'>
-		<div class="col-sm-3">
-			<a href="/assets/images/preslam.png"><img src='/assets/images/preslam.png' class='img-fluid'></a>
-		</div>
-		<div class="col">
-			<div class='paper-title'>
-				PRE-SLAM: Persistence Reasoning in Edge-assisted Visual SLAM
-			</div>
-			<div class='paper-authors'>
-				<u>Timothy Chase Jr</u>, Ali J. Ben Ali, Steven Y. Ko, Karthik Dantu
-			</div>
-			<div class='paper-bib'>
-				IEEE International Conference on Mobile Ad Hoc and Smart Systems (MASS), 2022 (Oral Presentation)
-			</div>
-			<div class='paper-desc'>
-				We introduce PRE-SLAM, which builds upon the edge-assisted Visual-SLAM system, Edge-SLAM, to incorporate feature persistence filtering. We revisit the centralized persistence filter architecture and make a series of modifications to allow for dynamic feature filtering in an edge-assisted setting. Using two locally collected datasets, we show how our split persistent filter implementation is comparable with the centralized version in performance, reducing map-point and keyframe retention by 26.6% and 16.6% respectively. By filtering out dynamic map-points from the system, we demonstrate an improvement in average localization accuracy by more than 50%. We also demonstrate how incorporating feature persistence filtering into Edge-SLAM retains the key benefits and performance enhancements of an edge-assisted Visual-SLAM system, with an added communication overhead of only 500 KB while decreasing overall map size by 8.6%.
-			</div>
-			<div class='paper-links'>
-				<a href="https://ieeexplore.ieee.org/abstract/document/9973604" target="_blank">[IEEE Xplore]</a>
-				<a href="https://tjchase34.github.io/preslam_web/" target="_blank">[Project Page]</a>
-			</div>
-		</div>
-	</div>
-
 <!-- YOCO AAS ----- -->
 <div class='row vspace-top'>
 		<div class="col-sm-3">
@@ -359,7 +334,7 @@ classes: wide
 				AAS/AIAA Astrodynamics Specialist Conference, 2022 (Oral Presentation)
 			</div>
 			<div class='paper-desc'>
-				In this work, we introduce You Only Crash Once (YOCO), a deep learning-based visual hazardous terrain detection and classification technique for autonomous spacecraft planetary landings. Through the use of unsupervised domain adaptation we tailor YOCO for training by simulation, removing the need for real-world annotated data and expensive mission surveying phases. We further improve the transfer of representative terrain knowledge between simulation and the real world through visual similarity clustering. We demonstrate the utility of YOCO through a series of terrestrial and extraterrestrial simulation-to-real experiments and show substantial improvements toward the ability to both detect and accurately classify instances of planetary terrain.
+				In this work, we introduce You Only Crash Once (YOCO), a learning-based visual hazardous terrain detection and classification technique for autonomous spacecraft planetary landings. Through the use of unsupervised domain adaptation we tailor YOCO for training by simulation, removing the need for real-world annotated data and expensive mission surveying phases. We further improve the transfer of representative terrain knowledge between simulation and the real world through visual similarity clustering. We demonstrate the utility of YOCO through a series of terrestrial and extraterrestrial simulation-to-real experiments and show substantial improvements toward the ability to both detect and accurately classify instances of planetary terrain.
 			</div>
 			<div class='paper-links'>
 				<a href="https://arxiv.org/abs/2303.04891" target="_blank">[Arxiv]</a>
@@ -385,12 +360,37 @@ classes: wide
 				AIAA SciTech Forum, 2022 (Oral Presentation)
 			</div>
 			<div class='paper-desc'>
-				This paper tackles the inaccuracies and inefficiencies of standard image feature matching processes on spaceflight processors, by leveraging traditional onboard navigation filter information to drastically reduce the number of matching candidates. Estimated feature location is used to form statistical prediction gates around a given feature, for which all points lying inside are treated as inliers and fed to the matching process. Using a simulated trajectory around a high-fidelity 3D asteroid model and a single monocular camera, we demonstrate an overall reduction of around 87% in average matching time for three popular feature description techniques. A substantial increase in the quality of matches obtained is also shown, giving utility towards purely monocular terrain relative navigation.
+				This paper tackles the inaccuracies and inefficiencies of standard image feature matching processes on spaceflight processors, by leveraging traditional onboard navigation filter information to drastically reduce the number of matching candidates. Estimated feature location is used to form statistical prediction gates around a given feature, for which all points lying inside are treated as inliers and fed to the matching process. Using a simulated trajectory around a high-fidelity 3D asteroid model and a single monocular camera, we demonstrate an overall reduction of around 87% in average matching time for three popular feature description techniques. We showcase how feature gating substantially increases matching accuracy, giving utility towards purely monocular terrain relative navigation.
 			</div>
 			<div class='paper-links'>
 				<a href="https://arc.aiaa.org/doi/10.2514/6.2022-2513" target="_blank">[AIAA Paper]</a>
-				<a href="https://video.aiaa.org/title/2934eaa3-91fb-4897-ba28-9eb774074875" target="_blank">[Video]</a>
+				<a href="https://video.aiaa.org/title/2934eaa3-91fb-4897-ba28-9eb774074875" target="_blank">[Video Presentation]</a>
 				<a href="https://tjchase34.github.io/mht_web/" target="_blank">[Project Page]</a>
+			</div>
+		</div>
+	</div>
+
+<!-- PRESLAM ----- -->
+<div class='row vspace-top'>
+		<div class="col-sm-3">
+			<a href="/assets/images/web_preslam.png"><img src='/assets/images/web_preslam.png' class='img-fluid'></a>
+		</div>
+		<div class="col">
+			<div class='paper-title'>
+				PRE-SLAM: Persistence Reasoning in Edge-assisted Visual SLAM
+			</div>
+			<div class='paper-authors'>
+				<u>Timothy Chase Jr</u>, Ali J. Ben Ali, Steven Y. Ko, Karthik Dantu
+			</div>
+			<div class='paper-bib'>
+				IEEE Conference on Mobile Ad Hoc and Smart Systems (MASS), 2022 (Oral Presentation)
+			</div>
+			<div class='paper-desc'>
+				We introduce PRE-SLAM, an edge-assisted visual SLAM system that incorporates feature persistence filtering. We revisit the centralized persistence filter architecture and make a series of modifications to allow for dynamic feature filtering in an edge-assisted setting. Using two locally collected datasets, we show how our split persistence filter implementation reduces map-point and keyframe retention by 26.6% and 16.6% respectively. By filtering out dynamic map-points from the system, we demonstrate an improvement in average localization accuracy by more than 50%. We also demonstrate how incorporating feature persistence filtering into Edge-SLAM retains the key benefits and performance enhancements of an edge-assisted Visual-SLAM system, with an added communication overhead of only 500 KB while decreasing overall map size by 8.6%.
+			</div>
+			<div class='paper-links'>
+				<a href="https://ieeexplore.ieee.org/abstract/document/9973604" target="_blank">[IEEE Xplore]</a>
+				<!-- <a href="https://tjchase34.github.io/preslam_web/" target="_blank">[Project Page]</a> -->
 			</div>
 		</div>
 	</div>
