@@ -233,7 +233,7 @@ classes: wide
 
 <!-- INTERNSHIPS ===================================================== -->
 <div class='section-sep section-vspace-top'>
-		<h1>Selected Internships and Work Experience</h1>
+		<h1>Selected Work Experience</h1>
 </div>
 
 <div class='row vspace-top'>
@@ -315,7 +315,7 @@ classes: wide
 
 <!-- PUBLICATIONS ===================================================== -->
 <div class='section-sep section-vspace-top'>
-		<h1>Select Publications</h1>
+		<h1>Selected Publications</h1>
 </div>
 
 <!-- YOCO AAS ----- -->
@@ -337,8 +337,10 @@ classes: wide
 				In this work, we introduce You Only Crash Once (YOCO), a learning-based visual hazardous terrain detection and classification technique for autonomous spacecraft planetary landings. Through the use of unsupervised domain adaptation we tailor YOCO for training by simulation, removing the need for real-world annotated data and expensive mission surveying phases. We further improve the transfer of representative terrain knowledge between simulation and the real world through visual similarity clustering. We demonstrate the utility of YOCO through a series of terrestrial and extraterrestrial simulation-to-real experiments and show substantial improvements toward the ability to both detect and accurately classify instances of planetary terrain.
 			</div>
 			<div class='paper-links'>
-				<a href="https://arxiv.org/abs/2303.04891" target="_blank">[Arxiv]</a>
-				<a href="https://tjchase34.github.io/yoco_web/" target="_blank">[Project Page]</a>
+				<a href="https://arxiv.org/abs/2303.04891" target="_blank">[arXiv]</a>
+				<!-- <a href="https://tjchase34.github.io/yoco_web/" target="_blank">[Project Page]</a> -->
+				[AAS Paper (Coming Soon)]
+				[Project Page (Coming Soon)]
 			</div>
 		</div>
 	</div>
@@ -365,7 +367,8 @@ classes: wide
 			<div class='paper-links'>
 				<a href="https://arc.aiaa.org/doi/10.2514/6.2022-2513" target="_blank">[AIAA Paper]</a>
 				<a href="https://video.aiaa.org/title/2934eaa3-91fb-4897-ba28-9eb774074875" target="_blank">[Video Presentation]</a>
-				<a href="https://tjchase34.github.io/mht_web/" target="_blank">[Project Page]</a>
+				<!-- <a href="https://tjchase34.github.io/mht_web/" target="_blank">[Project Page]</a> -->
+				[Project Page (Coming Soon)]
 			</div>
 		</div>
 	</div>
@@ -391,6 +394,7 @@ classes: wide
 			<div class='paper-links'>
 				<a href="https://ieeexplore.ieee.org/abstract/document/9973604" target="_blank">[IEEE Xplore]</a>
 				<!-- <a href="https://tjchase34.github.io/preslam_web/" target="_blank">[Project Page]</a> -->
+				[Project Page (Coming Soon)]
 			</div>
 		</div>
 	</div>
